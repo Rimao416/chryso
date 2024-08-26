@@ -7,7 +7,7 @@ process.on("uncaughtException", (err) => {
   process.exit(1);
 });
 
-// console.log(process.env)
+console.log(process.env)
 
 const DB = process.env.DATABASE.replace(
   "<PASSWORD>",
